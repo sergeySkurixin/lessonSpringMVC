@@ -1,0 +1,7 @@
+Ansamble - сборка инсталятора, плагин для maven
+
+REST модель
+
+DispatcherServlet
+
+tomcat maven plugin
