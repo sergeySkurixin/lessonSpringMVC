@@ -1,4 +1,4 @@
-package ru.sbt.lessons.servlet;
+package ru.sbt.lessons.servlet.servlet;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(urlPatterns = "/")
+@WebServlet(urlPatterns = "/say-hello")
 public class SayHelloServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

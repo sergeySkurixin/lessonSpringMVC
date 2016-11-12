@@ -17,7 +17,7 @@
 
   <servlet>
     <servlet-name>sayHello</servlet-name>
-    <servlet-class>ru.sbt.lessons.servlet.SayHelloServlet</servlet-class>
+    <servlet-class>ru.sbt.lessons.servlet.servlet.SayHelloServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>

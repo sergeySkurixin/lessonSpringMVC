@@ -1,6 +1,7 @@
 package ru.sbt.lessons.servlet;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+import ru.sbt.lessons.servlet.service.ServiceConfiguration;
 
 /**
  * Created by SBTJavastudent on 12.11.2016.
@@ -12,11 +13,12 @@ public class SpringAppInitializer extends AbstractAnnotationConfigDispatcherServ
     }
 
     protected Class<?>[] getServletConfigClasses() {
-        Class<?>[] classes = {WebConfiguration.class};
-        return classes;
+//        Class<?>[] classes = {WebConfiguration.class};
+//        return classes;
+        return new Class<?>[0];
     }
 
     protected String[] getServletMappings() {
-        return new String[] {"/spring"};
+        return new String[] {"/"};
     }
 }
